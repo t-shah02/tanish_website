@@ -1,7 +1,8 @@
 
 <script>
     
-    import AboutCard from "./components/AboutCard.svelte";  
+    import AboutModal from "./components/AboutModal.svelte";  
+    import ProjectsModal from "./components/ProjectsModal.svelte";
 
 
     // state variables
@@ -37,11 +38,12 @@
     </div>
     <hr />
 
-    <AboutCard/>
+    <AboutModal/>
+    <ProjectsModal/>
 
     <div class="controls">
         <button data-hystmodal="#about-modal">About</button>
-        <button>Projects</button>
+        <button data-hystmodal="#projects-modal">Projects</button>
         <button on:click={openResume}>Resume</button>
 
     </div>
