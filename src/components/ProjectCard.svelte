@@ -1,7 +1,6 @@
 <script>
     export let images = [];
     export let title = "Project";
-    export let actions = [];
     export let links = {};
     export let description = "Description";
     export let techStack = [];
@@ -12,18 +11,18 @@
         if (sliderIndex < 0) {
             sliderIndex = images.length - 1;
         }
-    }
+    };
 
     const goRight = () => {
         sliderIndex++;
         if (sliderIndex >= images.length) {
             sliderIndex = 0;
         }
-    }
+    };
 
     const openImageInNewTab = () => {
         window.open(images[sliderIndex],"_blank");
-    }
+    };
 
     const DEV_ICON_MAP = {
         github: "devicon-github-original",
@@ -33,6 +32,7 @@
     };
 
     let sliderIndex = 0;
+
 </script>
 
 <div class="card">

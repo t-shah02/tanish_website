@@ -9,7 +9,7 @@
     let aboutActive = false;
 
 
-    const openResume = () => window.open("/static/resume.pdf","_blank");
+    const openResume = () => window.open("/static/misc/resume.pdf","_blank");
     
 
 
@@ -47,6 +47,6 @@
         <button on:click={openResume}>Resume</button>
 
     </div>
-    <img alt="tanish shah" src="/static/tanish.jpg" />
+    <img alt="tanish shah" src="/static/home/tanish.jpg" />
 
 </div>
