@@ -48,5 +48,5 @@
 
     </div>
     <img alt="tanish shah" src="/static/home/tanish.jpg" />
-
+    
 </div>
